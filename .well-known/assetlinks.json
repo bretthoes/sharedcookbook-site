@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.cookbookmobile",
+      "sha256_cert_fingerprints": [
+        "AE:2A:87:79:31:90:8F:9D:C4:49:AE:56:8A:B2:26:14:BD:27:F1:DC:EA:37:AD:C5:EF:B2:B8:35:E0:54:53:7F"
+      ]
+    }
+  }
+]
