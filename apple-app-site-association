@@ -6,8 +6,16 @@
         "appIDs": ["R82627H2UA.com.cookbookmobile"],
         "components": [
           {
+            "/": "/invite",
+            "comment": "Cookbook invitation links (chat preview URL)"
+          },
+          {
+            "/": "/invite/*",
+            "comment": "Cookbook invitation links (chat preview URL)"
+          },
+          {
             "/": "/i/*",
-            "comment": "Cookbook invitation links"
+            "comment": "Legacy cookbook invitation links"
           }
         ]
       }

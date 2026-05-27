@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>You've been invited to join a cookbook!</title>
+    <meta name="description" content="You've been invited to join a cookbook!" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Love to Cook" />
+    <meta property="og:title" content="You've been invited to join a cookbook!" />
+    <meta property="og:description" content="You've been invited to join a cookbook!" />
+    <meta property="og:url" content="https://sharedcookbook.com/invite/" />
+    <meta property="og:image" content="https://sharedcookbook.com/images/app-icon.png" />
+    <meta property="og:image:alt" content="Love to Cook" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="You've been invited to join a cookbook!" />
+    <meta name="twitter:description" content="You've been invited to join a cookbook!" />
+    <meta name="twitter:image" content="https://sharedcookbook.com/images/app-icon.png" />
+  </head>
+  <body>
+    <p>You've been invited to join a cookbook! Open this link in the Love to Cook app.</p>
+    <script>
+      ;(function () {
+        var params = new URLSearchParams(window.location.search)
+        var token = params.get("t")
+        if (!token) return
+        window.location.replace("cookbookmobile:///i/" + token)
+      })()
+    </script>
+  </body>
+</html>
